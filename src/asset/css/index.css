@@ -105,6 +105,7 @@ ul {
   position: absolute;
   margin-top: 5em;
 }
+
 .hero-content b {
   font-weight: 600;
   color: #af96e0;
@@ -178,7 +179,9 @@ ul {
   justify-content: space-between;
   margin: 8em 0em;
 }
-
+.video-content {
+  width: 30em;
+}
 .video-wrapper-sub-right h5 {
   color: #6f42c1;
   font-size: 2em;
@@ -189,7 +192,7 @@ ul {
   font-size: 1em;
   color: #bbb3a7;
   line-height: 1.5em;
-  width: 30vw;
+  width: 25em;
 }
 .video-wrapper-sub-right span {
   color: #6f42c1;
@@ -210,6 +213,60 @@ ul {
   margin: 3em 0em;
   font-size: 0.7em;
 }
+/* about page */
+.about-video-wrapper {
+  margin: 0;
+}
+.team-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.team-content {
+  width: 70vw;
+}
+.team-content h5 {
+  font-size: 2em;
+  color: #6f42c1;
+  margin: 0;
+}
+.team-content p {
+  color: #bbb3a7;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+.team-img img {
+  border-radius: 50%;
+}
+figcaption div {
+  margin-top: 1em;
+  color: #6f42c1;
+  font-weight: bold;
+}
+footer.about-footer {
+  padding: 2em 0;
+}
+.protection-wrapper.about-protect {
+  padding-top: 0em;
+}
+/******************* */
+/* blog */
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog div {
+  text-align: center;
+}
+footer.footer-blog {
+  padding: 5em 0;
+}
+
+/********************* */
 .safty-guide-wrapper {
   display: flex;
   justify-content: space-between;
@@ -217,7 +274,6 @@ ul {
 
 .guide {
   display: flex;
-  /* justify-content: space-between; */
   width: 20vw;
   align-items: center;
 }
@@ -396,6 +452,7 @@ ul {
 .symptoms-content {
   width: 70vw;
 }
+
 .symptoms-heading {
   text-align: center;
 }
@@ -545,7 +602,7 @@ figcaption .material-icons.md-18 {
 }
 
 /* /////////////////////////////////////*/
-@media only screen and (max-width: 4000px) and (min-width: 1500px) {
+@media only screen and (max-width: 2560px) and (min-width: 1500px) {
   .header-wrapper {
     width: 60vw;
   }
@@ -563,6 +620,12 @@ figcaption .material-icons.md-18 {
   }
   .stat-content {
     width: 60vw;
+  }
+  .video-content {
+    width: 30vw;
+  }
+  .video-wrapper-sub-right p {
+    width: 24vw;
   }
   .prevention {
     width: 60vw;
@@ -616,8 +679,12 @@ figcaption .material-icons.md-18 {
   .stat-content {
     width: 90vw;
   }
+
   .video-wrapper-sub-right h5 {
     font-size: 1.5em;
+  }
+  .video-wrapper-sub-right p {
+    width: 34vw;
   }
   .video-wrapper-sub-right button {
     font-size: 0.5em;
@@ -694,9 +761,9 @@ figcaption .material-icons.md-18 {
     margin-bottom: 3em;
   }
   .hero-sub-content {
-    width: 90vw;
-    font-size: 1.5em;
+    font-size: 1em;
   }
+
   .hero-img {
     height: 80vh;
     width: 90vw;
@@ -723,16 +790,18 @@ figcaption .material-icons.md-18 {
     display: flex;
     flex-direction: column;
   }
-  .video-content video {
-    width: 100%;
-  }
-  .video-content video {
+
+  .video-content {
     margin-bottom: 4em;
+    width: 90vw;
   }
   .video-wrapper-sub-right {
     font-size: 0.8em;
     width: 90vw;
     padding: 0em 2em;
+  }
+  .video-wrapper-sub-right h5 {
+    font-size: 3em;
   }
   .video-wrapper-sub-right p {
     width: 80vw;
